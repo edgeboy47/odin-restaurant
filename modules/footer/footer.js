@@ -1,11 +1,12 @@
 import "./style.css";
+import GithubLogo from "./github.svg";
 
 export default function buildFooter() {
   const footer = document.createElement("footer");
-  const credit = document.createElement("div");
-  credit.classList.add("credit");
-  credit.innerHTML = "edgeboy47";
 
-  footer.appendChild(credit);
+  footer.innerHTML = `
+    <div class="credit">edgeboy47</div>
+    <a target="_blank" href="https://github.com/edgeboy47"><img src="${GithubLogo}" alt="Github" /></a>
+  `;
   return footer;
 }

@@ -9,3 +9,4 @@ Simple Restaurant website for testing Webpack.
 - CSS
 - JavaScript
 - Webpack
+- NPM

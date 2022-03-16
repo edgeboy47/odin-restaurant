@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #eee;
+  grid-row: 1 / 2;
+}
+
+.tab {
+  margin: 0 0.5rem;
+  font-size: 1.75rem;
+  width: 8rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+}
+
+.tab:hover {
+  cursor: pointer;
+}

@@ -1,4 +1,4 @@
-import "./style.css";
+import "./footer.css";
 import GithubLogo from "./github.svg";
 
 export default function buildFooter() {
